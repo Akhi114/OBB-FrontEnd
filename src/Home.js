@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate, Link as RouterLink } from "react-router-dom";
-import api from "./api";
+import { useNavigate } from "react-router-dom";
 import {
   AppBar,
   Toolbar,

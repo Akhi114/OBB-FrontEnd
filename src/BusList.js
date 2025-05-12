@@ -1,30 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from "react-router-dom";
-import api from "./api";
 import './css/BusList.css';
-
-const dummyBuses = [
-  {
-    id: 1,
-    busName: 'GreenLine Express',
-    source: 'City A',
-    destination: 'City B',
-    departureTime: '08:00 AM',
-    arrivalTime: '12:00 PM',
-    seatsAvailable: 10,
-    fare: 350,
-  },
-  {
-    id: 2,
-    busName: 'BlueBird Travels',
-    source: 'City A',
-    destination: 'City B',
-    departureTime: '10:00 AM',
-    arrivalTime: '02:00 PM',
-    seatsAvailable: 4,
-    fare: 400,
-  },
-];
 
 const BusList = () => {
   const [buses, setBuses] = useState([]);
