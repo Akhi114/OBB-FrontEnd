@@ -1,0 +1,39 @@
+.login-container {
+    width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .login-form button {
+    margin-top: 1.5rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  

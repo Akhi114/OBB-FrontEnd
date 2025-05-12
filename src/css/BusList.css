@@ -1,0 +1,31 @@
+.buslist-container {
+    width: 600px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .bus-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: #f0f8ff;
+  }
+  
+  .bus-card h3 {
+    margin: 0;
+  }
+  
+  .bus-card p {
+    margin: 0.4rem 0;
+  }
+  
+  .bus-card button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
